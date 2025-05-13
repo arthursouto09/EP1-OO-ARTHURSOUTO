@@ -67,10 +67,15 @@ public class Aluno {
     public String getCurso() {
         return curso;
     }   
-
-    public void setCurso(String curso) {
+    
+public void setCurso(String curso) {
         this.curso = curso;
     }
+    
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+    
     
     public List<String> getDisciplinasInscritas() {
         return disciplinasInscritas;
