@@ -1,11 +1,11 @@
 package aluno;
 
-import java.util.List;
 import java.time.LocalDate;
+import java.util.List;
 
 
 
-public class Aluno {
+public abstract class Aluno {
     protected String nome;
     protected int matricula;
     protected String curso;
@@ -16,15 +16,13 @@ public class Aluno {
         this.nome = nome;
         this.matricula = matricula;
         this.curso = curso;
-        this.dataLimiteTrancamento = dataLimiteTrancamento;
     }
-
+    
     public int getMatricula() {
         return matricula;
     }
 
-    public absract boolean podeMatricular(String materia);
-
+    public abstract boolean podeMatricular(String materia);
     
     public void matricular(String materia) {
         if (podeMatricular(materia)) {
@@ -35,7 +33,7 @@ public class Aluno {
     }
 
     public void trancar(String materia) {
-        LocalDate hoje = LocalDate.now(); // Obtém a data atual
+        LocalDate hoje = LocalDate.now(); // REcebe a data atual que o aluno irá realizar o trancae
         if (hoje.isAfter(dataLimiteTrancamento)) {
             System.out.println("Não é possível trancar a disciplina " + materia + " após a data limite de " + dataLimiteTrancamento);
             return;
