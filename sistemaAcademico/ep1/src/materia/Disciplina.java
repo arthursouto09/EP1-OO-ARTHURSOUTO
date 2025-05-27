@@ -9,6 +9,7 @@ public class Disciplina {
     public String nome;
     public String codigo;
     public int cargaHoraria;
+    private int totalAulas;
     public List<String> alunosMatriculados;
 
 
@@ -52,5 +53,7 @@ public class Disciplina {
         this.alunosMatriculados = alunosMatriculados;
     }
 
-    
+    public int getTotalAulas() {
+        return totalAulas;
+    }
 }
