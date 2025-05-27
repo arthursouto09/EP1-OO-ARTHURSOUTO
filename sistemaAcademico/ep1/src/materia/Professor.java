@@ -1,4 +1,6 @@
-package pessoas;
+package materia;
+
+import materia.Pessoa;
 
 public class Professor extends Pessoa {
     private String disciplina;

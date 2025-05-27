@@ -8,8 +8,11 @@ import materia.Nota;
 public class Main {
     public static void main(String[] args) throws Exception {
         Aluno aluno = new AlunoNormal("Arthur", 123456, "Engenharia");
-        Disciplina  disciplina = new Disciplina("Matematica", "MAT101", 60);
+        Disciplina disciplina = new Disciplina("Matematica", "MAT101", 60);
         Nota nota = new Nota(7.0, 8.0, 9.0, 10.0, 6.0);
         System.out.println("Hello " + aluno.getNome() + " do curso de " + aluno.getCurso());
+        System.out.println("Nome: " + aluno.getNome());
+        System.out.println("Matrícula: " + aluno.getMatricula());
+        System.out.println("Curso: " + aluno.getCurso());
     }
 }
