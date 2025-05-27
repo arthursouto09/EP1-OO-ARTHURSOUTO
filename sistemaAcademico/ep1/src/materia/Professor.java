@@ -1,7 +1,5 @@
 package materia;
 
-import materia.Pessoa;
-
 public class Professor extends Pessoa {
     private String disciplina;
 
@@ -21,8 +19,8 @@ public class Professor extends Pessoa {
     @Override
     public String toString() {
         return "Professor{" +
-                "nome='" + nome + '\'' +
-                ", id=" + id +
+                "nome='" + getNome() + '\'' +
+                ", id=" + getId() +
                 ", disciplina='" + disciplina + '\'' +
                 '}';
     }
