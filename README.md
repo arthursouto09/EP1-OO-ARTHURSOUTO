@@ -19,13 +19,14 @@ O enunciado do trabalho pode ser encontrado aqui:
 ## Instruções para Compilação e Execução
 
 1. **Compilação:**  
-   [Descrever aqui como compilar o projeto. Exemplo: `javac Main.java` ou o script usado]
+  javac -cp . aluno\Aluno.java aluno\AlunoNormal.java materia\Disciplina.java materia\Nota.java Main.java
 
 2. **Execução:**  
-   [Descrever aqui como executar o projeto. Exemplo: `java Main` ou o script usado]
+   Utilize o código
+    java -cp . Main
 
-3. **Estrutura de Pastas:**  
-   [Descrever aqui as principais pastas do projeto]
+4. **Estrutura de Pastas:**  
+   
 
 3. **Versão do JAVA utilizada:**  
    Java 24.0.0
@@ -41,10 +42,11 @@ O enunciado do trabalho pode ser encontrado aqui:
 ## Prints da Execução
 
 1. Menu Principal:  
-   ![Inserir Print 1](caminho/do/print1.png)
+   ![image](https://github.com/user-attachments/assets/923a3c2f-018e-4085-be57-279950cc9daa)
 
 2. Cadastro de Aluno:  
-   ![Inserir Print 2](caminho/do/print2.png)
+   ![image](https://github.com/user-attachments/assets/229b4ad3-cdb4-4b44-8c94-9a92e7318c89)
+
 
 3. Relatório de Frequência/Notas:  
    ![Inserir Print 3](caminho/do/print3.png)
@@ -67,10 +69,10 @@ O enunciado do trabalho pode ser encontrado aqui:
 
 ## Observações (Extras ou Dificuldades)
 
-- [Espaço para o aluno comentar qualquer funcionalidade extra que implementou, dificuldades enfrentadas, ou considerações importantes.]
+- O que mais tive dificuldade no trabalho, foi associar uma classe a outra e a como fazer o código em si. Como fazer as ligações de uma coisa a outra, por onde estudar e saber como fazer o código. Tive alguns problemas em relação por onde iria me basear para iniciar o trabalho
 
 ---
 
 ## Contato
 
-- [Opcional: E-mail pessoal do aluno.]
+- arthur090810@gmail.com
